@@ -1,0 +1,111 @@
+--- Query 1: What is cryptocurrency? ---
+2025-09-21T17:09:47.960550Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 12
+  messages:
+
+User:
+"What is cryptocurrency?"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 16385
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+2025-09-21T17:09:49.960190Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Cryptocurrency is a type of digital or virtual currency that uses cryptography for security. It operates independently of a central bank or government authority, making it decentralized and often considered more secure and private than traditional forms of currency. Cryptocurrencies are typically stored and transacted through blockchain technology, a distributed ledger system that records all transactions across a network of computers. Some popular cryptocurrencies include Bitcoin, Ethereum, and Ripple."
+    finish_reason: Eos
+    generation_settings: 
+    model: "gpt-3.5-turbo-0125"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 2.000835291s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 11
+    completion_tokens: 81
+    total_tokens: 92
+    token_calls: None
+Cryptocurrency is a type of digital or virtual currency that uses cryptography for security. It operates independently of a central bank or government authority, making it decentralized and often considered more secure and private than traditional forms of currency. Cryptocurrencies are typically stored and transacted through blockchain technology, a distributed ledger system that records all transactions across a network of computers. Some popular cryptocurrencies include Bitcoin, Ethereum, and Ripple.
+
+--- Query 2: What is blockchain? ---
+2025-09-21T17:09:50.122359Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 12
+  messages:
+
+User:
+"What is blockchain?"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 16385
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+2025-09-21T17:09:51.734662Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Blockchain is a decentralized, distributed ledger technology that stores data in a series of connected blocks. Each block contains a cryptographic hash of the previous block, timestamped transaction data, and a unique identifier, creating a secure and transparent record of transactions. The technology is often used for secure and transparent digital transactions, such as cryptocurrencies like Bitcoin, but can also be applied to a wide range of industries and applications for secure data storage and verification."
+    finish_reason: Eos
+    generation_settings: 
+    model: "gpt-3.5-turbo-0125"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 1.611713667s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 11
+    completion_tokens: 86
+    total_tokens: 97
+    token_calls: None
+Blockchain is a decentralized, distributed ledger technology that stores data in a series of connected blocks. Each block contains a cryptographic hash of the previous block, timestamped transaction data, and a unique identifier, creating a secure and transparent record of transactions. The technology is often used for secure and transparent digital transactions, such as cryptocurrencies like Bitcoin, but can also be applied to a wide range of industries and applications for secure data storage and verification.
